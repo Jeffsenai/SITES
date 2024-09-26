@@ -38,6 +38,9 @@
     margin-top: 40px;
     align-items: center;
     align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 
@@ -61,8 +64,8 @@
 }
 
 .pacote {
-        border: 4px solid black;      /* Define a borda preta com 2px de espessura */
-        border-radius: 10px;          /* Define cantos ligeiramente arredondados */
+        border: 4px solid black;      /* Define a espessura e cor da borda */
+        border-radius: 10px;          /* Arredonda os cantos */
     padding: 20px;
     width: 30%;
     text-align: center;

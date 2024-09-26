@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+    color: #000;
+}
+
+#cabecalho {
+    background-color: #648769;
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    gap: 100px;
+}
+
+#topoPagina {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.imagem-livros {
+    width: 580px;
+    height: 280px;
+    margin-right: 10px;
+    
+}
+
+#topoPagina h1 {
+    margin: 0;
+    font-size: 85px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+
+#descricao-principal {
+    background-color: #fff;
+    text-align: left;
+    padding: 40px;
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#descricao-principal h3 {
+    color: #2A5B31;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+#informacoes-clube {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 40px 0;
+    ;
+}
+
+.informacao {
+    border: 2px solid red;
+    padding: 20px;
+    text-align: left;
+    max-width: 200px;
+}
+
+.informacao h4 {
+    font-size: 25px;
+    color: black;
+}
+
+.informacao p {
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+}
+
+.icone {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+#rodape {
+    background-color: #648769;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#rodape h2 {
+    color: #fff;
+    font-size: 70px;
+}
