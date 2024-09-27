@@ -6,7 +6,6 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     background-color: white;
     color: #000000;
 }
@@ -87,8 +86,12 @@ section.aprenda-receitas h2 {
 
 .item {
     padding: 20px;
-    width: 200px;
-    text-align: center;
+    width: 400px;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    
 }
 
 .item h4 {
@@ -98,13 +101,15 @@ section.aprenda-receitas h2 {
 }
 
 .item img {
-    width: 100%;
-    height: auto;
+    width: 110px;
+    height: 110px;
     margin-bottom: 10px;
+    
 }
 
 .item p {
     color:#AFA7A7;
+    text-align: justify;
 }
 
 section.blog {
@@ -142,13 +147,13 @@ section.blog .post h3 {
 
 section.blog .post p {
     font-size: 16px;
-    color: #555;
+    color: #AFA7A7;
 }
 
 section.linha-laranja {
     color: #ECA457;
     background-color: #ECA457;
-    height: 5px;
+    height: 4px;
     width: 20000px;
 }
 
@@ -160,6 +165,11 @@ footer {
 }
 
 footer img {
-    height: 110px;
+    height: 130px;
     width: auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
 }
