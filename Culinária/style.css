@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans MT';
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #000000;
+}
+
+header {
+    background-color: #ECA457;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.imagem-principal img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section.comidas-saudaveis {
+
+    padding: 50px 0px;
+}
+
+section.comidas-saudaveis h2 {
+    color: #ECA457;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section.comidas-saudaveis p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 23px;
+    text-align: justify;
+}
+
+section.aprenda-receitas {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+section.aprenda-receitas h2 {
+    color: #ECA457;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.receita {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.item {
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.item h4 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color:#AFA7A7;
+}
+
+section.blog {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+section.blog h2 {
+    color: #ECA457;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+section.blog .post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.blog .post img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+section.blog .post-texto {
+    text-align: left;
+}
+
+section.blog .post h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+section.blog .post p {
+    font-size: 16px;
+    color: #555;
+}
+
+section.linha-laranja {
+    color: #ECA457;
+    background-color: #ECA457;
+    height: 5px;
+    width: 20000px;
+}
+
+footer {
+    background-color: #ECA457;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    height: 110px;
+    width: auto;
+}
